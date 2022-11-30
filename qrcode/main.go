@@ -58,7 +58,7 @@ Usage:
 	}
 
 	if *textArt {
-		art := q.ToString(*negative)
+		art := q.ToSmallString(*negative)
 		fmt.Println(art)
 		return
 	}
